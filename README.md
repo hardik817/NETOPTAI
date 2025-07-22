@@ -27,22 +27,4 @@
 
 ---
 
-## 📁 Project Structure
-
-
-NETOPTAI/
-│
-├── networksecurity/
-│ ├── model.py # Training + GridSearchCV + MLflow logging
-│ ├── preprocess.py # MongoDB data ingestion + cleaning
-│ └── utils.py # Reusable helper functions
-│
-├── final_model/ # Serialized production-ready models
-├── data/ # Static datasets (optional)
-├── mlruns/ # MLflow experiment logs (auto-generated)
-│
-├── app.py # Application entrypoint
-├── test_mongodb.py # MongoDB connection sanity test
-├── requirements.txt # Project dependencies
-└── README.md # This file
 
